@@ -1,0 +1,36 @@
+---
+title: "Hollow_impacts_report"
+output: html_document
+params:
+  p1: NA
+  p2: NA
+---
+
+
+
+## Fauna species impact
+
+```{r, echo=FALSE,warning=FALSE}
+ library(plotly)
+ params$p1
+
+```
+
+
+```{r, echo=FALSE,warning=FALSE}
+ library(plotly)
+params$p2
+
+```
+
+
+
+## Fauna risk statistics
+
+
+```{r, echo=FALSE}
+# cat(" The hollow was heated to", params$Tm, "degrees Celsius", "\n",
+#     "Mortality was", params$m, "% likely")
+```
+
+
